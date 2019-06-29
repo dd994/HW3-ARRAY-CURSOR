@@ -1,0 +1,1 @@
+in my opinion this is done for the faster work of the compiler, so that he immediately knew how much memory to allocate to him, without the additional expense of resources for expansion
