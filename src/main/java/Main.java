@@ -1,13 +1,11 @@
 package main.java;
 
-import main.java.ArraysMethod.ArrayListReplace;
-import main.java.ArraysMethod.ArrayPositiveOnes;
-import main.java.ArraysMethod.ArrayAverageList;
-import main.java.ArraysMethod.ArrayListDivBy3;
+import main.java.methods.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class Main {
 
@@ -26,10 +24,11 @@ public class Main {
         System.out.println();
 
 
+
+
         //ArrayListReplace (3 task)
         System.out.println("3 task");
-
-        ArrayList<String> values = new ArrayList<>();
+        List<String> values = new ArrayList<>();
         values.add("One");
         values.add("Two");
         values.add("Tree");

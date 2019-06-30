@@ -1,4 +1,4 @@
-package main.java.ArraysMethod;
+package main.java.methods;
 
 public class ArrayPositiveOnes {
 

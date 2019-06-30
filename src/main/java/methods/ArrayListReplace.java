@@ -1,11 +1,12 @@
-package main.java.ArraysMethod;
+package main.java.methods;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListReplace {
 
 
-    public static ArrayList replace(String what, String forWhat, ArrayList arrayList) {
+    public static List replace(String what, String forWhat, List arrayList) {
         int i = arrayList.indexOf(what);
         arrayList.set(i, forWhat);
         return arrayList;
